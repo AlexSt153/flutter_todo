@@ -43,9 +43,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        // TODO: flutter_launcher_icons minSdkVersion and targetSdkVersion
         applicationId "com.example.flutter_todo"
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21 // flutter.minSdkVersion
+        targetSdkVersion 29 // flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
